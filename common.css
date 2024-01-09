@@ -1,0 +1,35 @@
+:root {
+    --color1: #fffcf2;
+    --color2: #ccc5b9;
+    --color3: #403d39;
+    --color4: #252422;
+    --color5: #eb5e28;
+    --color6: #a73407;
+
+    --rgba3:65, 62, 58;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+header {
+    width:100%;
+    z-index: 2;
+}
+
+nav {
+    background:var(--color6);
+    background-image:url('assets/images/master-chief.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .nav-link {
+    color:var(--color2);
+}
+
+nav .nav-link:hover, nav .nav-link:focus {
+    color:var(--color1);
+}
