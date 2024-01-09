@@ -1,0 +1,69 @@
+@import "../common.css";
+
+body {
+    background: var(--color3);
+    padding-top:35px;
+}
+
+.card {
+    border-color:var(--color6);
+    background:var(--color2);
+}
+
+.card-title span {
+    text-decoration: underline var(--color5);
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.input-group-text, .form-control {
+    border-color:var(--color6) !important;
+}
+
+.input-group-text {
+    background-color: var(--color5);
+    color:var(--color1);
+}
+
+.Message {
+    display: block;
+    width:95%;
+    border-bottom:3px solid var(--color6);
+    margin:5px auto;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.error {
+    display: none;
+    margin:7px auto 0;
+    background: var(--color4);
+    color:var(--color5);
+    border:2px solid var(--color6);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline var(--color6);
+}
+
+button {
+    background:var(--color5) !important;
+    color:var(--color1) !important;
+    letter-spacing: 5px;
+    transition: 1s;
+    text-decoration: underline var(--color1) !important;
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+button:hover {
+    transition: 1s;
+    letter-spacing: 10px;
+    background: var(--color3) !important;
+    color: var(--color5) !important;
+    border: 3px solid var(--color5) !important;
+    text-decoration: underline var(--color5) !important;
+}
+
+@media (min-width: 830px) {
+    .card {
+        width:50%;
+        margin:auto;
+    }
+}

@@ -1,0 +1,60 @@
+@import "../common.css";
+
+.creation {
+    margin-top:40px;
+    background:var(--color4) !important;
+    background-image: url('../assets/images/yuki-terumi.gif') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.creation h2 {
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.creation em {
+    font-family: 'Orbitron', sans-serif;
+    font-size:15px;
+}
+
+.lead em {
+    color:var(--color5);
+}
+
+.album {
+    background: var(--color2);
+}
+
+h1 span {
+    text-decoration: underline var(--color5);
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.card {
+    border-color:var(--color6);
+    background:var(--color3);
+    color:var(--color1);
+}
+
+.card a {
+    color:var(--color5);
+}
+
+.card-img-top {
+    object-fit: cover;
+    object-position: top;
+}
+
+.card em, .card i {
+    color:var(--color5);
+}
+
+.card-title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media (max-width: 830px) {
+    .creation {
+        background-image: none !important;
+    }
+}
