@@ -1,0 +1,12 @@
+:root {
+    --bleu1: #1c4396;
+    --bleu2: #ebf5fe;
+}
+
+.navbar, .pres {
+    background: var(--bleu1) !important;
+}
+
+body, .card {
+    background-color: var(--bleu2) !important;
+}

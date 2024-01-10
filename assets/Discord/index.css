@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.navbar {
+    background:#404eed;
+}
+
+.header {
+    background: #404eed;
+    color:white;
+    background-image: url('assets/header-background.svg');
+    background-size: contain;
+    background-position:right bottom;
+    background-repeat: no-repeat;
+}
+
+.bouton {
+    background: #f6f6f6;
+}
+
+.bouton a, .bouton2 a {
+    text-decoration: none;
+}
+
+.bouton a {
+    color: black;
+}
+
+.bouton2 a {
+    color:white;
+}
+
+.bouton:hover {
+    background: #f6f6f6;
+    color:black;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-item a {
+        color:white !important;
+    }
+  }
