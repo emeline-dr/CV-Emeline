@@ -1,90 +1,87 @@
 @import "common.css";
 
 .contenu {
-    height: 100vh;
-    padding-top: 40px;
+	height: 100vh;
+	padding-top: 40px;
 }
 
 .intro {
-    background: var(--color4);
-    color:var(--color5);
+	background: var(--color4);
+	color: var(--color5);
 }
 
 .img1 {
-    box-shadow:0px 0px 15px var(--color5);
-    transition:1s;
-    width:70%;
-    height:150px;
-    object-fit: cover;
+	box-shadow: 0px 0px 15px var(--color5);
+	transition: 1s;
+	width: 70%;
+	height: 150px;
+	object-fit: cover;
 }
 
 .img-thumbnail {
-    box-shadow:0px 0px 15px var(--color6);
-    transition:1s;
-    width:45%;
+	box-shadow: 0px 0px 15px var(--color6);
+	transition: 1s;
+	width: 45%;
 }
 
-.img-thumbnail:hover, .img1:hover {
-    filter: hue-rotate(90deg);
-    transition:1s;
+.img-thumbnail:hover,
+.img1:hover {
+	filter: hue-rotate(90deg);
+	transition: 1s;
 }
 
 h4 span {
-    text-decoration: underline var(--color5);
-    font-family: 'Silkscreen', sans-serif;
+	text-decoration: underline var(--color5);
+	font-family: "Silkscreen", sans-serif;
 }
 
 .scrollspy-example {
-    background: var(--color2);
-    overflow-y: auto;
-    overflow-x: hidden;
-    text-align: justify;
+	background: var(--color2);
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: justify;
 }
 
 .scrollspy-example p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
-.scrollspy-example p span, .langues span {
-    color:var(--color6);
-    font-weight: bolder;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.bloc-infos {
-    background-image: url('assets/images/bibli.gif');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+.scrollspy-example p span,
+.langues span {
+	color: var(--color6);
+	font-weight: bolder;
+	font-family: "Orbitron", sans-serif;
 }
 
 .progress-bar {
-    background:var(--color5);
-    transition:0.2s;
+	background: var(--color5);
+	transition: 0.2s;
 }
 
-.progress-bar:hover{
-    background:var(--color6);
-    letter-spacing:2px;
+.progress-bar:hover {
+	background: var(--color6);
+	letter-spacing: 2px;
 }
 
 .navonglet {
-    background-image:linear-gradient(rgba(var(--rgba3), .75), rgba(var(--rgba3),0.75)), 
-    url('assets/images/background.jpg');
-    background-size: cover;
+	background-image: linear-gradient(
+			rgba(var(--rgba3), 0.75),
+			rgba(var(--rgba3), 0.75)
+		),
+		url("assets/images/background.jpg");
+	background-size: cover;
 }
 
 .navonglet a {
-    color:var(--color5);
+	color: var(--color5);
 }
 
 .navonglet a:hover {
-    color:var(--color6);
+	color: var(--color6);
 }
 
 @media (max-width: 1230px) {
-    .bloc-infos {
-        background-image: none;
-    }
-  }
-  
+	.bloc-infos {
+		background-image: none;
+	}
+}

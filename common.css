@@ -6,30 +6,58 @@
     --color5: #eb5e28;
     --color6: #a73407;
 
-    --rgba3:65, 62, 58;
+    --rgba3: 65, 62, 58;
 }
 
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 header {
-    width:100%;
+    width: 100%;
     z-index: 2;
 }
 
 nav {
-    background:var(--color6);
-    background-image:url('assets/images/master-chief.gif');
+    background: var(--color6);
+    background-image: url('assets/images/master-chief.gif');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 nav .nav-link {
-    color:var(--color2);
+    color: var(--color2);
 }
 
-nav .nav-link:hover, nav .nav-link:focus {
-    color:var(--color1);
+nav .nav-link:hover,
+nav .nav-link:focus {
+    color: var(--color1);
+}
+
+.btn {
+    background: var(--color5);
+    color: var(--color1);
+}
+
+.btn:hover {
+    background: var(--color6)
+}
+
+.modal {
+    --bs-modal-width: 85%
+}
+
+.modal-content {
+    color: var(--color1);
+    background-color: var(--color3);
+    border: 1px solid var(--color5)
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+.modal-footer {
+    border-top: 0px
 }
